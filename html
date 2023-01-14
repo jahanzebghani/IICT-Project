@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sharing World</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<header>
+		<div class="logo">
+			<p>Sharing World</p>
+		</div>
+		<nav>
+			<div class="menu">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">GAMES</a>
+					<div class="sub-menu-1">
+					  <ul>
+						<li><a href="/GAMES">Action Games</a></li>
+						<li><a href="/GAMES">Sega Games</a></li>
+						<li><a href="/GAMES">Adventure Games</a></li>
+						<li><a href="/GAMES">Horror Games</a></li>
+						<li><a href="/GAMES">Arcade Games</a></li>
+						<li><a href="/GAMES">Sports Games</a></li>
+					  </ul>
+					</div>
+                </li>
+                  <li><a href="#">SONGS</a>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="/SONGS">Indian Songs</a></li>
+                        <li><a href="/SONGS">Pakistani Songs</a></li>
+                        <li><a href="/SONGS">English Songs</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">MOVIES</a>
+                    <div class="sub-menu-3">
+                      <ul>
+                        <li><a href="/MOVIES">Indian Movies</a></li>
+                        <li><a href="/MOVIES">Pakistani Movies</a></li>
+                        <li><a href="/MOVIES">English Movies</a></li>
+                        <li><a href="/MOVIES">Tamil Movies</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">KIDS</a>
+                  <div class="sub-menu-4">
+                    <ul>
+                      <li><a href="/KIDS">Cartoon</a></li>
+                      <li><a href="/KIDS">Cartoon Movies</a></li>
+                      <li><a href="/KIDS">Cartoon Series</a></li>
+                    </ul>
+                  </div>
+                </li>
+                  <li class="active"><a href="#">SOFTWARES</a>
+                    <div class="sub-menu-5">
+                      <ul>
+                        <li><a href="/SOFTWARES">Operating Systems</a></li>
+                        <li><a href="/SOFTWARES">MS Office</a></li>
+                        <li><a href="/SOFTWARES">Important Softwares</a></li>
+                        <li><a href="/SOFTWARES">Downloading Softwares</a></li>
+                        <li><a href="/SOFTWARES">Compilers</a></li>
+                        <li><a href="/SOFTWARES">Graphics Designing Softwares</a></li>
+                        <li><a href="/SOFTWARES">Media Players</a></li>
+                        <li><a href="/SOFTWARES">System Drivers</a></li>
+                      </ul>    
+                  </li>
+				</div>
+			</nav>
+					<div class="search">
+						<input class="srch" type="search" name="" placeholder="Search">
+						<a href="#"> <button class="btn">Search</button></a>
+					</div>
+				</div>
+    </header>
+	<style>
+		*{
+	  margin: 0;
+	  padding: 0;
+  }
+
+  body{
+	  width: 100%;
+	  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("https://fromthesource.link/wp-content/uploads/2022/07/1659296817_840_560.jpeg");
+	  background-position: center;
+	  background-size: cover;
+	  height: 100vh;
+  }
+  
+  header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: black;
+  }
+  .logo{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+}
+ nav li{
+	display: inline-block;
+	list-style: none;
+ }
+ li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+.sub-menu-1{
+  display: none;
+}
+nav ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  text-transform: none;
+  cursor: pointer;
+  width: 220px;
+}
+nav ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+  background-color: #046619;
+}
+.sub-menu-2{
+  display: none;
+}
+nav ul li:hover .sub-menu-2{
+  display: block;
+  position: absolute;
+  text-transform: none;
+  cursor: pointer;
+  width: 220px;
+}
+nav ul li:hover .sub-menu-2 ul {
+  display: block;
+  margin: 10px;
+  background-color: #046619;
+}
+.sub-menu-3{
+  display: none;
+}
+nav ul li:hover .sub-menu-3{
+  display: block;
+  position: absolute;
+  text-transform: none;
+  cursor: pointer;
+  width: 220px;
+}
+nav ul li:hover .sub-menu-3 ul {
+  display: block;
+  margin: 10px;
+  background-color: #046619;
+}
+.sub-menu-4{
+  display: none;
+}
+nav ul li:hover .sub-menu-4 {
+  display: block;
+  position: absolute;
+  text-transform: none;
+  cursor: pointer;
+  width: 220px;
+}
+nav ul li:hover .sub-menu-4 ul {
+  display: block;
+  margin: 10px;
+  background-color: #046619;
+}
+.sub-menu-5{
+  display: none;
+}
+nav ul li:hover .sub-menu-5{
+  display: block;
+  position: absolute;
+  text-transform: none;
+  cursor: pointer;
+  width: 300px;
+}
+nav ul li:hover .sub-menu-5 ul {
+  display: block;
+  margin: 10px;
+  background-color: #046619;
+}
+.search{
+    float: left;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: white;
+    border: 1px solid #111111;
+    margin-top: 13px;
+    color: rgb(10, 10, 10);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #046619;
+    border: 2px solid #141414; 
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+nav li a:hover {
+  background-color: #046619;
+}
+.btn :hover{
+	background-color: #046619;
+}
+  </style>
+  </body>
+</html>
